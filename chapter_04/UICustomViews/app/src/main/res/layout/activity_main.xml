@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<!--    <include layout="@layout/title" />-->
+
+<!--    第二种方式使用自定义组件  -->
+    <com.xiaoli.uicustomviews.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
